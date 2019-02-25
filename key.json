@@ -1,0 +1,22 @@
+{
+    "College Square": {"Lewis Science Center": 200, "Prince Center": 300},
+    "Lewis Science Center": {"College Square": 200, "Math-Comp Science": 150,"Speech Language Hearing": 250},
+    "Speech Language Hearing":{"Lewis Science Center": 250, "Burdick": 100,"Maintenance College": 120},
+    "Math-Comp Science": {"Torreyson Library": 40, "Burdick": 30, "Prince Center": 80, "Lewis Science Center": 150},
+    "Burdick": {"Math-Comp Science": 30, "Speech Language Hearing": 100, "Maintenance College": 300, "McALister Hall": 200, "Torreyson Library": 80},
+    "Prince Center": {"College Square": 300, "Math-Comp Science": 80, "Torreyson Library": 30, "Police Dept.":100},
+    "Torreyson Library": {"Prince Center": 30, "Math-Comp Science": 40, "Burdick": 80, "Old Main": 30}, 
+    "Maintenance College": {"Speech Language Hearing": 120, "Burdick": 300, "McALister Hall": 150, "Wingo" : 100, "New Business Building": 150, "Oak Tree Apt.": 160}, 
+    "Old Main": {"Torreyson Library": 30, "McALister Hall": 100, "Fine Art": 90, "Police Dept.": 200},
+    "Police Dept." : {"Prince Center": 100, "Old Main": 200, "Fine Art": 50, "Student Health Center": 100},
+    "Fine Art": {"Police Dept.": 50, "Old Main": 90, "McALister Hall": 180, "Student Center": 80}, 
+    "McALister Hall": {"Burdick": 200, "Maintenance College": 150, "Wingo": 50, "Student Center": 100, "Fine Art": 180, "Old Main": 100}, 
+    "Student Center": {"Fine Art": 80, "McALister Hall": 100, "Wingo": 100, "New Business Building": 110, "Student Health Center": 50},
+    "Wingo": {"McALister Hall": 50, "Maintenance College": 100, "New Business Building": 50, "Student Center": 100},
+    "Student Health Center": {"Police Dept.": 100, "Student Center": 50, "Brewer-Hegeman": 200},
+    "New Business Building": {"Student Center": 110, "Wingo": 50, "Oak Tree Apt.": 30, "Brewer-Hegeman": 20}, 
+    "Oak Tree Apt.": {"New Business Building": 30, "Maintenance College": 160, "Brewer-Hegeman":40},
+    "Brewer-Hegeman": {"Student Health Center": 200, "New Business Building": 20, "Oak Tree Apt.": 40, "Bear village Apt.": 350},
+    "Bear village Apt.": {"Brewer-Hegeman": 350}
+
+}

@@ -1,0 +1,108 @@
+{Dijkstra's Algorithm Distances}
+
+|starting location|  |ending location|         |distance| 
+__________________________________________________________
+
+Math-Comp Science   College Square                350
+Math-Comp Science   Lewis Science Center          150
+Math-Comp Science   Speech Language Hearing       130
+Math-Comp Science   Math-Comp Science             0
+Math-Comp Science   Burdick                       30
+Math-Comp Science   Prince Center                 70
+Math-Comp Science   Torreyson Library             40
+Math-Comp Science   Maintenance College           250
+Math-Comp Science   Old Main                      70
+Math-Comp Science   Police Dept.                  170
+Math-Comp Science   Fine Art                      160
+Math-Comp Science   McALister Hall                170
+Math-Comp Science   Student Center                240
+Math-Comp Science   Wingo                         220
+Math-Comp Science   Student Health Center         270
+Math-Comp Science   New Business Building         270
+Math-Comp Science   Oak Tree Apt.                 300
+Math-Comp Science   Brewer-Hegeman                290
+Math-Comp Science   Bear village Apt.             640
+
+
+
+
+
+{Dijkstra's Algorithm Pathways}
+
+path to College Square:          Math-Comp Science ---> Lewis Science Center ---> College Square
+path to Lewis Science Center:    Math-Comp Science ---> Lewis Science Center
+path to Speech Language Hearing: Math-Comp Science ---> Burdick ---> Speech Language Hearing
+path to Math-Comp Science:       N/A
+path to Burdick:                 Math-Comp Science ---> Burdick
+path to Prince Center:           Math-Comp Science ---> Torreyson Library ---> Prince Center
+path to Torreyson Library:       Math-Comp Science ---> Torreyson Library
+path to Maintenance College:     Math-Comp Science ---> Burdick ---> Speech Language Hearing ---> Maintenance College
+path to Old Main:                Math-Comp Science ---> Torreyson Library ---> Old Main
+path to Police Dept.:            Math-Comp Science ---> Torreyson Library ---> Prince Center ---> Police Dept.
+path to Fine Art:                Math-Comp Science ---> Torreyson Library ---> Old Main ---> Fine Art
+path to McALister Hall:          Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall
+path to Student Center:          Math-Comp Science ---> Torreyson Library ---> Old Main ---> Fine Art ---> Student Center
+path to Wingo:                   Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo
+path to Student Health Center:   Math-Comp Science ---> Torreyson Library ---> Prince Center ---> Police Dept. ---> Student Health Center
+path to New Business Building:   Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo ---> New Business Building
+path to Oak Tree Apt.:           Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo ---> New Business Building ---> Oak Tree Apt.
+path to Brewer-Hegeman:          Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo ---> New Business Building ---> Brewer-Hegeman
+path to Bear village Apt.:       Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo ---> New Business Building ---> Brewer-Hegeman ---> Bear village Apt.
+
+
+
+
+{Bellman-Ford Algorithm Distances}
+
+|starting location|  |ending location|         |distance| 
+__________________________________________________________
+
+Math-Comp Science   College Square                350
+Math-Comp Science   Lewis Science Center          150
+Math-Comp Science   Speech Language Hearing       130
+Math-Comp Science   Math-Comp Science             0
+Math-Comp Science   Burdick                       30
+Math-Comp Science   Prince Center                 70
+Math-Comp Science   Torreyson Library             40
+Math-Comp Science   Maintenance College           250
+Math-Comp Science   Old Main                      70
+Math-Comp Science   Police Dept.                  170
+Math-Comp Science   Fine Art                      160
+Math-Comp Science   McALister Hall                170
+Math-Comp Science   Student Center                240
+Math-Comp Science   Wingo                         220
+Math-Comp Science   Student Health Center         270
+Math-Comp Science   New Business Building         270
+Math-Comp Science   Oak Tree Apt.                 300
+Math-Comp Science   Brewer-Hegeman                290
+Math-Comp Science   Bear village Apt.             640
+
+
+
+
+
+{Bellman-Ford Algorithm Pathways}
+
+path to College Square:          Math-Comp Science ---> Lewis Science Center ---> College Square
+path to Lewis Science Center:    Math-Comp Science ---> Lewis Science Center
+path to Speech Language Hearing: Math-Comp Science ---> Burdick ---> Speech Language Hearing
+path to Math-Comp Science:       N/A
+path to Burdick:                 Math-Comp Science ---> Burdick
+path to Prince Center:           Math-Comp Science ---> Torreyson Library ---> Prince Center
+path to Torreyson Library:       Math-Comp Science ---> Torreyson Library
+path to Maintenance College:     Math-Comp Science ---> Burdick ---> Speech Language Hearing ---> Maintenance College
+path to Old Main:                Math-Comp Science ---> Torreyson Library ---> Old Main
+path to Police Dept.:            Math-Comp Science ---> Torreyson Library ---> Prince Center ---> Police Dept.
+path to Fine Art:                Math-Comp Science ---> Torreyson Library ---> Old Main ---> Fine Art
+path to McALister Hall:          Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall
+path to Student Center:          Math-Comp Science ---> Torreyson Library ---> Old Main ---> Fine Art ---> Student Center
+path to Wingo:                   Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo
+path to Student Health Center:   Math-Comp Science ---> Torreyson Library ---> Prince Center ---> Police Dept. ---> Student Health Center
+path to New Business Building:   Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo ---> New Business Building
+path to Oak Tree Apt.:           Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo ---> New Business Building ---> Oak Tree Apt.
+path to Brewer-Hegeman:          Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo ---> New Business Building ---> Brewer-Hegeman
+path to Bear village Apt.:       Math-Comp Science ---> Torreyson Library ---> Old Main ---> McALister Hall ---> Wingo ---> New Business Building ---> Brewer-Hegeman ---> Bear village Apt.
+
+
+
+
