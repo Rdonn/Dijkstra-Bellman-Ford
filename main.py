@@ -5,9 +5,7 @@ The dictionaries that will contain the ADT graph data will be found within json 
 The program uses a library called mpu that allows a streamlined reading and writing process involving json files.
 """
 
-"""
-If the grader would like to have the raw distance and previous dictionary ouput, just uncomment lines 164 and 178
-"""
+
 
 import pdb
 import json
